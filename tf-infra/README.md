@@ -1,4 +1,5 @@
 Usage:
+---
 Perform the following steps to use the provider:
 
 Go to the provider example folder:
@@ -21,7 +22,7 @@ terraform apply
 ```
 More details about implementation: https://registry.terraform.io/providers/tehcyx/kind/latest/docs/resources/cluster
 
-In case of local deployment
+In case of local deployment:
 ----
 * Forward Argocd connection to localhost:
 ```
