@@ -87,7 +87,7 @@ daemonset:
 
   image:
     # image repository url, can be retrieved from the tenant
-    repository: ""
+    repository: "https://us-central1-docker.pkg.dev/xdr-us-1005218887746/agent-docker/cortex-agent"
 
     # Only pull image if it doesn't exist in cache
     pullPolicy: IfNotPresent
